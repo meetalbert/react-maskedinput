@@ -197,7 +197,7 @@ var MaskedInput = React.createClass({
 
     if (e.key === 'Enter') {
       if (this.props.onKeyDown) {
-        this.props.onKeyDown();
+        this.props.onKeyDown(e);
       }
     }
   },
